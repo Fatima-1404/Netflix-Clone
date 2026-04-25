@@ -1,27 +1,17 @@
-# 🎬 Netflix Clone - Next.js Technical Implementation
+# 🎬 Netflix Clone (HTML & CSS Only)
 
-A high-performance streaming interface clone built to practice modern frontend patterns, API integration, and responsive design.
+A visually accurate recreation of the Netflix landing page, built to demonstrate core frontend styling capabilities and responsive web design.
 
-## 🌟 Key Features
-* **Live Data Fetching:** Integrates with the TMDB (The Movie Database) API to display real-time trending and genre-based content.
-* **Modern UI/UX:** Replicates the Netflix "Browse" experience with hover effects and smooth scrolling.
-* **Optimized for Speed:** Built using **Next.js** for server-side rendering and optimized image handling.
-* **Fully Responsive:** Custom CSS and Bootstrap ensure a seamless experience from mobile to 4K displays.
+## 🌟 Project Highlights
+* **Zero Frameworks:** Built entirely with Vanilla HTML5 and CSS3 to ensure deep understanding of web fundamentals.
+* **Layout Mastery:** Utilized **CSS Flexbox** and **Grid** to manage the complex positioning of movie cards and navigation elements.
+* **Responsive Design:** Implemented Media Queries to ensure the UI looks great on mobile, tablet, and desktop screens.
+* **Interactive UI:** Features custom CSS hover transitions, button animations, and accordion-style FAQs (using the checkbox hack or simple structure).
 
-## 🛠️ Tech Stack
-* **Framework:** Next.js (React)
-* **Language:** JavaScript (ES6+)
-* **Styling:** CSS Modules / Bootstrap
-* **Data Source:** TMDB API
-* **Deployment:** Vercel
+## 🛠️ Skills Demonstrated
+* **Semantic HTML:** Using proper tags for SEO and accessibility.
+* **CSS Variables:** For consistent branding (Netflix Red, Background Smokes).
+* **Positioning:** Managing absolute/relative layering for the hero background and overlay gradients.
 
-## 🧠 Technical Challenges Solved
-* **Asynchronous Data:** Managed multiple concurrent API requests to populate different rows (Trending, Top Rated, etc.) without slowing down the initial page load.
-* **Conditional Rendering:** Implemented logic to display movie backdrops and posters based on screen size and availability.
-* **State Management:** Handled modal popups and video trailer logic for a smooth user flow.
-
-## 🚀 How to Run
-1. Clone the repo: `git clone [your-link]`
-2. Install dependencies: `npm install`
-3. Add your TMDB API Key to `.env.local`
-4. Run the dev server: `npm run dev`
+## 📂 Design Structure
+This project focuses on the "First Impression" of the Netflix UI, replicating the high-contrast color palette and the iconic card-slider layout.
